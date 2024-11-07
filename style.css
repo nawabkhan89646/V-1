@@ -45,12 +45,12 @@ body{
     color: white;
     border-radius: 100px;
     text-align: center;
-    /* animation-name: rotate; */
-    /* animation-duration: 3s; */
-    /* animation-iteration-count: 3; */
+    animation-name: rotate; 
+    animation-duration: 1s; 
+    animation-iteration-count: 4;
 }
 
-/* @keyframes rotate{
+@keyframes rotate{
     0%{
         transform: rotate(0);
     }
@@ -58,7 +58,7 @@ body{
     {
         transform: rotate(360deg);
     }
-} */
+}
 
 .main .right{
     display: flex;
